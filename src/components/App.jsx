@@ -1,12 +1,8 @@
 import React, { useState } from "react"
 import Header from "./header"
-import Footer from "./footer"
 import NoteComponent from "./note-compopnent"
 //import Notes from "../notes"
 import CreateArea from "./CreateArea"
-
-//console.log(Notes);
-
 
 function App() {
 
@@ -44,8 +40,6 @@ function App() {
             />
             );
         })}
-
-        <Footer />
     </div>
 }
 
